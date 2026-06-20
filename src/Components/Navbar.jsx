@@ -4,7 +4,8 @@ const Navbar = () => {
   return (
     <nav className='fixed z-20 w-full   bg-black/80 mx-auto  flex items-center justify-between px-20  py-2 shadow-md'>
       <div className='flex items-center '>
-        <img src="/Logo.png" alt="Logo" className='h-auto w-13' />
+        <img src={`${import.meta.env.BASE_URL}logo.png`} />
+
         {/* <span className='px-4 text-2xl font-bold text-white'>
           Cubic Moves
         </span> */}
